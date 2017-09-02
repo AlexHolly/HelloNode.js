@@ -9,6 +9,8 @@ Getting started Node.js
   
   sudo apt-get install build-essential
 
+  sudo apt-get install npm
+  
 ### Install HTTP-REST-Project-Generator package
 
   sudo npm install -g express-generator
