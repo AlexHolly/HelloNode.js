@@ -48,6 +48,7 @@ app.get('/',function (req, res) {
 });
 
 ```
+
 Create a file "package.json"
 ```
 {
@@ -68,11 +69,10 @@ Create a file "package.json"
 		"node": "6.9.4"
 	}
 }
+```
 
 Create a folder "public" and add the index.html
 
-
-```
 
 
 ### OPTIONAL
