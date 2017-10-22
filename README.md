@@ -75,7 +75,10 @@ Create a folder "public" and add the index.html
 
 ### RUN
 
-  npm install //download all packages
+#### Download all packages
+  "npm install" //
+  
+#### Start
   "npm start" or "node app.js"
 
 ### OPTIONAL
