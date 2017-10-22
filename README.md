@@ -73,7 +73,10 @@ Create a file "package.json"
 
 Create a folder "public" and add the index.html
 
+### RUN
 
+  npm install //download all packages
+  "npm start" or "node app.js"
 
 ### OPTIONAL
 ### Install HTTP-REST-Project-Generator package
