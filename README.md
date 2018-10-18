@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 var fs = require("fs");
 
 // Make files in ./public accessible
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(path.join(__dirname, '/src')));
 
 // start server on the specified port
 app.listen(process.env.PORT || 80, '0.0.0.0', function() {
