@@ -31,6 +31,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var fs = require("fs");
+var path = require("path");
 
 // Make files in ./public accessible
 app.use(express.static(path.join(__dirname, '/src')));
@@ -59,15 +60,16 @@ Create a file "package.json"
 	"start": "node app.js",
 	"test": "mocha"
 	},
-		"dependencies": {
-		"body-parser": "1.15.0",
-		"express": "4.15.2",
-		"pg": "6.1.5"
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.16.4",
+		"pg": "^7.10.0"
 	},
-		"repository": {},
-		"engines": {
-		"node": "6.9.4"
+	"repository": {},
+	"engines": {
+		"node": "^10.15.3"
 	}
+
 }
 ```
 
